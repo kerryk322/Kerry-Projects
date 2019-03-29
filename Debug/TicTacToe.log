@@ -1,0 +1,7 @@
+﻿  TicTacToe.cpp
+c:\users\kkane\onedrive\documents\rasmussen\master n137 cop1224 programming 1\tictactoe\tictactoe\tictactoe.cpp(196): warning C4018: '<': signed/unsigned mismatch
+c:\users\kkane\onedrive\documents\rasmussen\master n137 cop1224 programming 1\tictactoe\tictactoe\tictactoe.cpp(213): warning C4018: '<': signed/unsigned mismatch
+c:\users\kkane\onedrive\documents\rasmussen\master n137 cop1224 programming 1\tictactoe\tictactoe\tictactoe.cpp(231): warning C4018: '<': signed/unsigned mismatch
+c:\users\kkane\onedrive\documents\rasmussen\master n137 cop1224 programming 1\tictactoe\tictactoe\tictactoe.cpp(240): warning C4715: 'computerMove': not all control paths return a value
+  TicTacToe.vcxproj -> C:\Users\kkane\OneDrive\Documents\Rasmussen\Master N137 COP1224 Programming 1\TicTacToe\Debug\TicTacToe.exe
+  TicTacToe.vcxproj -> C:\Users\kkane\OneDrive\Documents\Rasmussen\Master N137 COP1224 Programming 1\TicTacToe\Debug\TicTacToe.pdb (Full PDB)
