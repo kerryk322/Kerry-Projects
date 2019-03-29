@@ -1,0 +1,394 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Module 05 Project</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="themes/Mod05ProjectTheme2.min.css" />
+  <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+
+  <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+  <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+  <script src="http://ajax.aspnetcdn.com/ajax/mobileservices/MobileServices.Web-1.2.5.min.js"></script>
+
+</head>
+<body>
+
+  <div id="page" data-role="page" data-theme="f" data-add-back-btn="true">
+    <div data-role="panel" id="myPanel" data-theme="f" data-position="right" data-display="overlay">
+      <h3>Quick Links</h3>
+      <ul data-role="listview" data-theme="f">
+      	<li><a href="http://www.nfl.com">NFL.com</a></li>
+      	<li><a href="http://www.nhl.com">NHL.com</a></li>
+      	<li><a href="http://www.mlb.com">MLB.com</a></li>
+        <li><a hreg="http://www.nba.com">NBA.com</a></li>
+      	<li><a href="#form">Info Form</a></li>
+        <li><a href="#box">Survey Form</a></li>
+        <li><a href="#about">About this assignment</a></li>
+      </ul>
+    </div>
+
+
+    <div data-role="header" data-theme="f" align="center">
+      <a href="#myPanel" class="ui-btn ui-btn-inline">Panel</a>
+      <div class="logo"><img src="images/sports-logo.PNG" width="200" height="120" alt="" />
+      </div>
+    <div data-role="main" class="ui-content">
+    <p>Welcome to the only site around that covers the San Francisco 49ers, Anaheim Ducks, Los Angeles Angeles and New York Knicks exclusively!</p>
+    <p> We will have the latest news and updates, sports scores along with standings and twitter updates from my favorite teams!</p>
+    <p>Please click below to go directly to review my favorite sports teams.</p>
+  </div>
+    <div data-role="content" data-theme="f">
+<div class="ui-grid-c" data-theme="f">
+<div class="ui-block-a"><div class="ui-bar ui-bar-a" style="height:100px" align="center"><a href="#nfl">NFL</a> <br>San Francisco 49ers</div></div>
+<div class="ui-block-b"><div class="ui-bar ui-bar-a" style="height:100px" align="center"><a href="#nhl">NHL</a><br> Anaheim Ducks</div></div>
+<div class="ui-block-c"><div class="ui-bar ui-bar-a" style="height:100px" align="center>"><a href="#mlb">MLB</a><br>Los Angeles Angels</div></div>
+<div class="ui-block-d"><div class="ui-bar ui-bar-a" style="height:100px" align="center"><a href="#nba">NBA</a><br>New York Knicks</div></div>
+</div><!-- /grid-c -->
+</div>
+<div data-role="footer" data-theme="f">
+    <h4>Kerry Kaneichi &copy; 2017</h4>
+  </div>
+</div>
+</div>
+
+<div id="nfl" data-role="page" data-theme="g" data-add-back-btn="true">
+	<div data-role="header" data-theme="g" data-add-back-btn="true">
+		<h1>San Francisco 49ers</h1>
+	</div>
+	<div data-role="content">
+		<div data-role="listview" data-theme="g" data-filter="true">
+      <li><a href="http://www.49ers.com/">San Francisco 49ers Site</a></li>
+      <li><a href="http://www.49ers.com/schedule/season-schedule.html">San Francisco 49ers Scores</a></li>
+      <li><a href="https://twitter.com/49ers">San Francisco 49ers Twitter</a></li>
+    </ul>
+  </div>
+</div>
+
+  <div data-role="footer" data-theme="g">
+  		<h4>Kerry Kaneichi &copy; 2017</h4>
+  	</div>
+  </div>
+
+  <div id="nhl" data-role="page" data-theme="c" data-add-back-btn="true">
+  	<div data-role="header" data-theme="c" data-add-back-btn="true">
+  		<h1>Anaheim Ducks</h1>
+  	</div>
+  	<div data-role="content">
+  		<div data-role="listview" data-theme="c" data-filter="true">
+        <li><a href="https://www.nhl.com/ducks">Anaheim Ducks Site</a></li>
+        <li><a href="https://www.nhl.com/ducks/schedule">Anaheim Ducks Scores</a></li>
+        <li><a href="https://twitter.com/AnaheimDucks">Anaheim Ducks Twitter</a></li>
+      </ul>
+    	</div>
+    </div>
+    <div data-role="footer" data-theme="c">
+    		<h4>Kerry Kaneichi &copy; 2017</h4>
+    	</div>
+    </div>
+
+    <div id="mlb" data-role="page" data-theme="d" data-add-back-btn="true">
+    	<div data-role="header" data-theme="d" data-add-back-btn="true">
+    		<h1>Los Angeles Angels</h1>
+    	</div>
+    	<div data-role="content">
+    		<div data-role="listview" data-theme="d" data-filter="true">
+          <li><a href="http://www.angels.com">Los Angeles Angels Site</a></li>
+          <li><a href="http://losangeles.angels.mlb.com/schedule/index.jsp?c_id=ana#y=2017&m=4&calendar=DEFAULT">Los Angeles Angels Scores</a></li>
+          <li><a href="https://twitter.com/Angels">Los Angeles Angels Twitter</a></li>
+        </ul>
+      	</div>
+      </div>
+      <div data-role="footer" data-theme="d">
+      		<h4>Kerry Kaneichi &copy; 2017</h4>
+      	</div>
+      </div>
+
+      <div id="nba" data-role="page" data-theme="e" data-add-back-btn="true">
+      	<div data-role="header" data-theme="e" data-add-back-btn="true">
+      		<h1>New York Knicks</h1>
+      	</div>
+      	<div data-role="content">
+      		<div data-role="listview" data-theme="e" data-filter="true">
+            <li><a href="http://www.nba.com/knicks/">New York Knicks Site</a></li>
+            <li><a href="http://www.nba.com/knicks/schedule">New York Knicks Scores</a>	</li>
+            <li><a href="https://twitter.com/nyknicks">New York Knicks Twitter</a></li>
+          </ul>
+        	</div>
+        </div>
+        <div data-role="footer" data-theme="e">
+        		<h4>Kerry Kaneichi &copy; 2017</h4>
+        	</div>
+        </div>
+
+        <div id="about" data-role="page" data-theme="f" data-add-back-btn="true">
+        	<div data-role="header" data-theme="f" data-add-back-btn="true">
+        		<h1>About this Project</h1>
+        	</div>
+          <div data-role="content">
+        	<h3>Module 06 - Final Website Documentation and Code</h3><br>
+          <p>Create final documentation for your course project applicaiton.  This should include a GitHub page.</p>
+          <p>- A summary or description of the purpose of the site.</p>
+          <p>- A website structure or site map.</p>
+          <p>- Descriptions of buttons on each page, the user actions, and the outcomes or results when they are clicked.</p>
+          <p>- The URL of the sample or production site:  <a href=https://github.com/kerryk322/Kerry-Rasmussen-Projects/projects/1>github.com/kerryk322/Kerry-Rasmussen-Projects/projects/1</a></p>
+          </div>
+          <div data-role="footer" data-theme="f">
+          		<h4>Kerry Kaneichi &copy; 2017</h4>
+          	</div>
+          </div>
+
+        <div id="form" data-role="page" data-theme="f" data-add-back-btn="true">
+          <div data-role="header" data-theme="f" data-add-back-btn="true">
+            <h1>Form</h1>
+          </div>
+          <div data-role="content">
+            Please fill out completely
+          </p>
+          <label for="fname" >First Name:</label>
+          <input type="text" name="fname" id="fname"  class="localStorage" placeholder="Enter your First Name" autofocus>
+          <label for="lname" class="localstorage">Last Name:</label>
+          <input type="text" name="lname" id="lname" class="localStorage" placeholder="Enter your Last Name" autofocus>
+          <label for="email">Email Address:</label>
+          <input type="text" name="email" id="email" class="localstorage" placeholder="Enter your email address" autofocus>
+          <label for="city">City:</label>
+          <input type="text" name="city" id="city" class="localstorage" placeholder="Enter your City" autofocus>
+          <label for="zip-code">Zip Code</label>
+          <input type="number" name="zip" pattern="[0-9]*" id="zip-code" class="localstorage" value="" placeholder="Enter your Zip Code" autofocus>
+
+          <fieldset data-role="controlgroup" data-type="horizontal" autofocus>
+            <legend>Gender</legend>
+            <input type="radio" name="gender" id="male" class="localstorage" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" class="localstorage" value="male">
+            <label for="female">Female</label>
+          </fieldset>
+
+          <fieldset data-role="controlgroup" data-mini="true">
+            <legend ><br>Select your favorite teams</legend>
+            <label for="select-v-2a">Select NFL</label>
+              <select name="select-v-2a" id="NFLSelect" class="localstorage">
+                <option value="#">San Francisco 49ers</option>
+                <option value="#">Arizona Cardinals</option>
+                <option value="#">Atlanta Falcons</option>
+                <option value="#">Baltimore Ravens</option>
+                <option value="#">Buffalo Bills</option>
+                <option value="#">Carolina Panthers</option>
+                <option value="#">Chicago Bears</option>
+                <option value="#">Cincinnati Bengals</option>
+                <option value="#">Cleveland Browns</option>
+                <option value="#">Dallas Cowboys</option>
+                <option value="#">Denver Broncos</option>
+                <option value="#">Detroit Lions</option>
+                <option value="#">Green Bay Packers</option>
+                <option value="#">Houston Texans</option>
+                <option value="#">Indianapolis Colts</option>
+                <option value="#">Jacksonville Jaguars</option>
+                <option value="#">Kansas City Chiefs</option>
+                <option value="#">Los Angeles Chargers</option>
+                <option value="#">Los Angeles Rams</option>
+                <option value="#">Miami Dolphins</option>
+                <option value="#">Minnesota Vikings</option>
+                <option value="#">New England Patriots</option>
+                <option value="#">New Orleans Saints</option>
+                <option value="#">New York Giants</option>
+                <option value="#">New York Jets</option>
+                <option value="#">Oakland Raiders</option>
+                <option value="#">Philadelphia Eagles</option>
+                <option value="#">Pittsburgh Steelers</option>
+                <option value="#">Seattle Seahawks</option>
+                <option value="#">Tampa Bay Buccaneers</option>
+                <option value="#">Tennessee Titans</option>
+                <option value="#">Washington Redskins</option>
+              </select>
+              <label for="select-v-2a">Select NHL</label>
+                <select name="select-v-2a" id="NHLSelect" class="localstorage">
+                  <option value="#">Anaheim Ducks</option>
+                  <option value="#">Arizona Coyotees</option>
+                  <option value="#">Boston Bruins</option>
+                  <option value="#">Buffalo Sabres</option>
+                  <option value="#">Calgary Flames</option>
+                  <option value="#">Carolina Hurricanes</option>
+                  <option value="#">Chicago Blackhawks</option>
+                  <option value="#">Colorado Avalanche</option>
+                  <option value="#">Columbus Blue Jackets</option>
+                  <option value="#">Dallas Stars</option>
+                  <option value="#">Detroid Red Wings</option>
+                  <option value="#">Florida Panthers</option>
+                  <option value="#">Edmonton Oilers</option>
+                  <option value="#">Las Vegas Golden Knights</option>
+                  <option value="#">Los Angeles Kings</option>
+                  <option value="#">Minnesota Wild</option>
+                  <option value="#">Montreal Canadians</option>
+                  <option value="#">Nashville Predators</option>
+                  <option value="#">New Jersey Devils</option>
+                  <option value="#">New York Islanders</option>
+                  <option value="#">New York Rangers</option>
+                  <option value="#">Ottawa Senators</option>
+                  <option value="#">Philadelphia Flyers</option>
+                  <option value="#">Pittsburgh Penguins</option>
+                  <option value="#">San Jose Sharks</option>
+                  <option value="#">St Louis Blues</option>
+                  <option value="#">Tampa Bay Lightning</option>
+                  <option value="#">Toronto Maple Leafs</option>
+                  <option value="#">Vancouver Canucks</option>
+                  <option value="#">Washington Capitals</option>
+                  <option value="#">Winnipeg Jets</option>
+                  </select>
+                <label for="select-v-2a">Select MLB</label>
+                  <select name="select-v-2a" id="MLBSelect" class="localstorage">
+                    <option value="#">Los Angeles Angels</option>
+                    <option value="#">Arizona Diamondbacks</option>
+                    <option value="#">Atlanta Braves</option>
+                    <option value="#">Baltimore Orioles</option>
+                    <option value="#">Boston Red Sox</option>
+                    <option value="#">Chicago White Sox</option>
+                    <option value="#">Chicago Cubs</option>
+                    <option value="#">Cincinnati Reds</option>
+                    <option value="#">Cleveland Indians</option>
+                    <option value="#">Colorado Rockies</option>
+                    <option value="#">Detroit Tigers</option>
+                    <option value="#">Houston Astros</option>
+                    <option value="#">Kansas City Royals</option>
+                    <option value="#">Los Angeles Dodgers</option>
+                    <option value="#">Miami Marlins</option>
+                    <option value="#">Milwaukee Brewers</option>
+                    <option value="#">Minnesota Twins</option>
+                    <option value="#">New York Mets</option>
+                    <option value="#">New York Yankees</option>
+                    <option value="#">Oakland Athletics</option>
+                    <option value="#">Philadelphia Phillies</option>
+                    <option value="#">Pittsburgh Pirates</option>
+                    <option value="#">San Diego Padres</option>
+                    <option value="#">San Francisco Giants</option>
+                    <option value="#">Seattle Mariners</option>
+                    <option value="#">St Louis Cardinals</option>
+                    <option value="#">Tampa Bay Rays</option>
+                    <option value="#">Texas Rangers</option>
+                    <option value="#">Toronto Blue Jays</option>
+                    <option value="#">Washington Nationals</option>
+                  </select>
+                  <label for="select-v-2a">Select NBA</label>
+                    <select name="select-v-2a" id="NBASelect" class="localstorage">
+                      <option value="#">New York Knicks</option>
+                      <option value="#">Atlanta Hawks</option>
+                      <option value="#">Boston Celtics</option>
+                      <option value="#">Brooklyn Nets</option>
+                      <option value="#">Charlotte Hornets</option>
+                      <option value="#">Chicago Bulls</option>
+                      <option value="#">Cleveland Cavaliers</option>
+                      <option value="#">Dallas Mavericks</option>
+                      <option value="#">Denver Nuggets</option>
+                      <option value="#">Detroit Pistons</option>
+                      <option value="#">Golden State Warriors</option>
+                      <option value="#">Houston Rockets</option>
+                      <option value="#">Indiana Pacers</option>
+                      <option value="#">Los Angeles Clippers</option>
+                      <option value="#">Los Angeles Lakers</option>
+                      <option value="#">Miami Heat</option>
+                      <option value="#">Memphis Grizzlies</option>
+                      <option value="#">Milwaukee Bucks</option>
+                      <option value="#">Minnesota Timberwolves</option>
+                      <option value="#">New Orleans Pelicans</option>
+                      <option value="#">Oklahoma City Thunder</option>
+                      <option value="#">Orlando Magic</option>
+                      <option value="#">Philadelphia 76ers</option>
+                      <option value="#">Phoenix Suns</option>
+                      <option value="#">Portland Trailblazers</option>
+                      <option value="#">Sacramento Kings</option>
+                      <option value="#">San Antonio Spurs</option>
+                      <option value="#">Toronto Raptors</option>
+                      <option value="#">Utah Jazz</option>
+                      <option value="#">Washington Wizards</option>
+                    </select>
+                  </fieldset>
+          <label for="slider">Please rate this form:</label>
+          <input type="range" name="slider" id="slider" class="localstorage" value="10" min ="0" max="10">
+
+          <input type="submit" value="Send">
+          <button class="clear">Clear</button>
+    			<button class="empty">Empty localStorage</button>
+            </form>
+        </div>
+          <div data-role="footer" data-theme="f">
+              <h4>Kerry Kaneichi &copy; 2017</h4>
+            </div>
+          </div>
+
+          <div id="box" data-role="page" data-theme="f" data-add-back-btn="true">
+          	<div data-role="header" data-theme="f" data-add-back-btn="true">
+              <h3>What are your favorite sports teams?</h3>
+            <form>
+              <p>Enter League Name:<br><input type="text" id="key" /></p>
+              <p>Enter Team:<br><input type="text" id="value" /></p>
+              <p><input type="submit" id="button" value="Submit" /></p>
+              <a href="javascript:clear()">Clear Items</a>
+
+          </div>
+          <section id="display_data">
+          </section>
+          <div data-role="footer" data-add-back-btn="true">
+            <h4>Kerry Kaneichi &copy; 2017</h4>
+          </div>
+
+          <div data-role="page" id="survey" data-theme="f" data-add-back-btn="true">
+            <div data-role="header" data-theme="f" data-add-back-btn="true">
+              <h1>Survey</h1>
+            </div>
+            <div data-role="content">
+          		<form id="contactForm" action="" method="POST">
+          	  <div class="field">
+          	    <label for="name">Name</label>
+          	    <input type="text" name="name" id="name">
+          	  </div>
+          	  <div class="field">
+          	    <label for="email">Email</label>
+          	    <input type="email" name="email" id="email">
+          	  </div>
+          	  <div class="field">
+          	    <label for="message">Message</label>
+          	    <textarea name="message" id="message"></textarea>
+          	  </div>
+          	  <div class="field">
+          	    <input type="submit" value="send">
+          	  </div>
+          	</form>
+          </div>
+          <div data-role="footer" data-theme="f">
+              <h4>Kerry Kaneichi &copy; 2017</h4>
+            </div>
+          </div>
+        </body>
+        </html>
+        <script>
+          function doFirst(){
+            var button = document.getElementById('button');
+            button.addEventListener("click",save,false);
+            display();
+          }
+
+          function save(){
+            var key = document.getElementById('key').value;
+            var value = document.getElementById('value').value;
+            sessionStorage.setItem(key,value);
+            display();
+            key.value="";
+            value.value="";
+          }
+
+          function display(){
+            var display_data = document.getElementById('display_data');
+            display_data.innerHTML="";
+            for(var i=0; i<sessionStorage.length; i++){
+              var a = sessionStorage.key(i);
+              var b = sessionStorage.getItem(a);
+              display_data.innerHTML += a+" - "+b+"<br>";
+            }
+          }
+          function clear(){
+            sessionStorage.clear();
+            location.reload();
+          }
+
+          window.addEventListener("load",doFirst,false);
+      </script>
