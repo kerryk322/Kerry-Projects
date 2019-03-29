@@ -6,7 +6,8 @@ Please click on the Projects link near the top of the page for project descripti
 
 ### Programs
 
-Tic Tac Toe - Created in Visual Studio https://github.com/kerryk322/Kerry-Projects/tree/TicTacToe
+Tic Tac Toe - Created in Visual Studio <br>
+Yahtzee - Created in Visual Studio <br>
 
 ### Websites
 
