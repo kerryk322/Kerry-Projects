@@ -9,6 +9,7 @@ Change the branch to view each projects files.
 
 Tic Tac Toe - Created in Visual Studio <br>
 Yahtzee - Created in Visual Studio <br>
+Tetris - Created in Visual Studio <br>
 
 ### Websites
 
