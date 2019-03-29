@@ -12,6 +12,6 @@ Tic Tac Toe - Created in Visual Studio https://github.com/kerryk322/Kerry-Projec
 
 ### Websites
 
-Favorite Teams - jQuery, responsive design 
+Favorite Teams - jQuery, responsive design <br>
 Lakewood Chiefs - Bootstrap, 
 
