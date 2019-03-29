@@ -1,0 +1,5 @@
+﻿  stdafx.cpp
+  KKaneichi_Mod07Yahtzee_111816.cpp
+c:\users\kkane\onedrive\documents\rasmussen\master n137 cop1224 programming 1\kkaneichi_mod07yahtzee_111816\kkaneichi_mod07yahtzee_111816\kkaneichi_mod07yahtzee_111816.cpp(619): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  KKaneichi_Mod07Yahtzee_111816.vcxproj -> C:\Users\kkane\OneDrive\Documents\Rasmussen\Master N137 COP1224 Programming 1\KKaneichi_Mod07Yahtzee_111816\Debug\KKaneichi_Mod07Yahtzee_111816.exe
+  KKaneichi_Mod07Yahtzee_111816.vcxproj -> C:\Users\kkane\OneDrive\Documents\Rasmussen\Master N137 COP1224 Programming 1\KKaneichi_Mod07Yahtzee_111816\Debug\KKaneichi_Mod07Yahtzee_111816.pdb (Full PDB)
