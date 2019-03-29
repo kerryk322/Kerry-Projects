@@ -3,6 +3,7 @@
 Most of these projects were completed while attending Rasmussen College. They include basic programming games and application websites.
 
 Click on the Projects link near the top of the page for project descriptions.
+
 Change the branch in order to review each projects files and code.
 
 ### Programs
