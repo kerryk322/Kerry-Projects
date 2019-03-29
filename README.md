@@ -1,16 +1,9 @@
-## Welcome to Kerry's Projects
+# Favorite Teams website
 
-Most of these projects were completed while attending Rasmussen College. They include basic programming games and application websites.
+A personal website that lists my favorite sports teams from the NFL, NHL, MLB and NBA.  
+The website links you to the teams’ official site as well as gives you links to the team schedule and scores and official twitter account.
 
-Click on the Projects link near the top of the page for project descriptions. <br>
-Change the branch in order to review each projects files and code.
+# Responsive web design using jQuery
 
-### Programs
-
-Tic Tac Toe - Created in Visual Studio
-
-### Websites
-
-Favorite Teams - jQuery, responsive design <br>
-Lakewood Chiefs - Bootstrap, 
-
+Includes individual links to a self created page for each team <br>
+Includes a hamburger link that opens a panel with additional links
