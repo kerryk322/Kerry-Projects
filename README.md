@@ -1,4 +1,4 @@
-# Favorite Teams website
+# Lakewood Chiefs website
 
 A personal website of my hockey team, the Lakewood Chiefs.
 The website includes pages for team members, statistics, schedule, scores and standings.
