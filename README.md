@@ -11,6 +11,6 @@ Yahtzee - Created in Visual Studio <br>
 
 ### Websites
 
-Favorite Teams - jQuery, responsive design 
+Favorite Teams - jQuery, responsive design <br>
 Lakewood Chiefs - Bootstrap, 
 
